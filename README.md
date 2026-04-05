@@ -16,9 +16,11 @@ This project shows the workflow of going from an AI-generated design in Stitch d
 - **Reusable forecast components** — `HourlyForecastItemView` and `DailyForecastRowView` are self-contained and easy to adapt
 - **No API keys needed** — runs entirely on mock data, great for UI prototyping
 
-## 📺 From the NoahDoesCoding YouTube Channel
+## 📺 Watch on YouTube
 
-This project is a companion to a tutorial on [@NoahDoesCoding97](https://www.youtube.com/@NoahDoesCoding97). Subscribe for weekly SwiftUI tutorials.
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20the%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/1b9jUKmhp2Q)
+
+> This project was built for the [NoahDoesCoding YouTube channel](https://www.youtube.com/@NoahDoesCoding97). Subscribe for weekly SwiftUI tutorials.
 
 ---
 
@@ -58,4 +60,4 @@ Select a simulator or connected device and hit **Run**.
 - Xcode 15+
 - iOS 17+
 
-📺 [Watch the guide on YouTube](https://www.youtube.com/@NoahDoesCoding97)
+📺 [Watch the guide on YouTube](https://youtu.be/1b9jUKmhp2Q)
