@@ -1,39 +1,61 @@
+# 🌤️ Weather App — Built with Stitch + SwiftUI
 
-# 🚀 Getting Started
+A SwiftUI weather app UI featuring hourly and 5-day forecasts, glassmorphic material cards, and a gradient hero temperature display — designed with the Stitch AI tool and translated into clean MVVM SwiftUI code.
 
-## 1. Clone the Repo
+---
+
+## 🤔 What this is
+
+This project shows the workflow of going from an AI-generated design in Stitch directly to production-quality SwiftUI. The weather UI includes a scrollable home screen with a hero temperature section, horizontal hourly forecast scroll, and a 5-day forecast card with temperature range bars — all backed by a mock `WeatherHomeViewModel`.
+
+## ✅ Why you'd use it
+
+- **Stitch-to-SwiftUI workflow demo** — see how an AI-generated design translates into real, structured SwiftUI code
+- **Material backgrounds & glassmorphism** — uses `.regularMaterial` and `RoundedRectangle` for the modern iOS weather look
+- **Clean MVVM pattern** — clear separation between `WeatherHomeView` and `WeatherHomeViewModel`
+- **Reusable forecast components** — `HourlyForecastItemView` and `DailyForecastRowView` are self-contained and easy to adapt
+- **No API keys needed** — runs entirely on mock data, great for UI prototyping
+
+## 📺 From the NoahDoesCoding YouTube Channel
+
+This project is a companion to a tutorial on [@NoahDoesCoding97](https://www.youtube.com/@NoahDoesCoding97). Subscribe for weekly SwiftUI tutorials.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
 ```bash
-git clone https://github.com/NDCSwift/REPO-NAME.git
-cd REPO-NAME
+git clone https://github.com/NDCSwift/WeatherAppStitchSwiftUI.git
+cd WeatherAppStitchSwiftUI
 ```
-Or select “Clone Git Repository…” when Xcode launches.
+Or select "Clone Git Repository…" when Xcode launches.
 
-⸻
+### 2. Open in Xcode
+- Double-click `WeatherAppStitchSwiftUI.xcodeproj`.
 
-## 2. Open in Xcode
-	•	Double-click the .xcodeproj or .xcworkspace.
+### 3. Set Your Development Team
 
-⸻
+In Xcode, navigate to: **TARGET → Signing & Capabilities → Team**
+- Select your personal or organizational team.
 
-## 3. Set Your Development Team
+### 4. Update the Bundle Identifier
+- Change `com.example.MyApp` to a unique identifier.
 
-In Xcode, navigate to:
+### 5. Run
+Select a simulator or connected device and hit **Run**.
 
-TARGET → Signing & Capabilities → Team
-	
-    •	Select your personal or organizational team.
+---
 
-⸻
+## 🛠️ Notes
 
-## 4. Update the Bundle Identifier
-	•	Change com.example.MyApp to a unique identifier (e.g., com.yourname.MyApp).
+- All weather data is mocked — no WeatherKit or API key required
+- Swap out `WeatherHomeViewModel` to connect a real weather API
+- If you see a code signing error, check that Team and Bundle ID are set
 
-⸻
+## 📦 Requirements
 
-🛠️ Notes
+- Xcode 15+
+- iOS 17+
 
-	•	If you see a code signing error, check that Team and Bundle ID are set.
-	•	If building for a device, ensure your provisioning profile supports the required capabilities (Push, iCloud, etc.).
-
-📺 YouTube
-[Click here to check out the guide on YouTube](https://www.youtube.com/@NoahDoesCoding97)
+📺 [Watch the guide on YouTube](https://www.youtube.com/@NoahDoesCoding97)
