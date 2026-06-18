@@ -20,7 +20,7 @@ This project shows the workflow of going from an AI-generated design in Stitch d
 
 [![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20the%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/1b9jUKmhp2Q)
 
-> This project was built for the [NoahDoesCoding YouTube channel](https://www.youtube.com/@NoahDoesCoding97). Subscribe for weekly SwiftUI tutorials.
+> This project was built for the [NoahDoesCoding YouTube channel](https://www.youtube.com/@noahdoescoding). Subscribe for weekly SwiftUI tutorials.
 
 ---
 
